@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+
+    Vamos ha hacer la APP por Pestañas
+        - Para eso cambiamos el Relative por un TabHost
+        - Nos cargamos todos los atributos Padding
+ -->
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".contenedor"
+    android:id="@android:id/tabhost"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <!--
+        Contenedor para las Pestañas
+     -->
+    <TabWidget
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@android:id/tabs"/>
+    <!--
+        Contenedor de las Actividades
+    -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@android:id/tabcontent"/>
+
+
+
+
+
+</LinearLayout>
+
+</TabHost>

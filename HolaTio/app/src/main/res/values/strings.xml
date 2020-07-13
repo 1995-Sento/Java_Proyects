@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Hola Tio</string>
+    <string name="txtNombre">Por Favor, Escribe tu Nombre</string>
+    <string name="btnText">Saludar</string>
+    <string name="btnLimpiar">Limpiar</string>
+    <string name="despeditBTN">Despedir</string>
+</resources>
